@@ -74,7 +74,7 @@ document.write('</br><b>Price total: ' + countBasketPrice(Basket) + '</b>');
 
 //задание 3
 
-
+//не понял
 
 //задание 4
 
@@ -89,3 +89,4 @@ for (let i = 0; i < 20; i++) {
     console.log(row);
     row += 'x';
 }
+
