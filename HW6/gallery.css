@@ -1,0 +1,66 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+
+}
+.gallery img {
+    width: 400px;
+    height: 400px;
+}
+
+.thumbnails {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px;
+}
+.thumbnails img {
+    padding: 10px;
+    cursor: pointer;
+    transition: transform 150ms ease-in-out;
+}
+.thumbnails img:hover {
+    transform: translateY(-5px);
+}
+.content {
+    position: relative;
+    width: 800px;
+}
+
+.content > span {
+
+    position: absolute;
+    border-radius: 10px;
+    top: 200px;
+    font-size: 30px;
+    width: 40px;
+    height: 38px;
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+    background: coral;
+
+}
+#left {
+    left: 180px;
+}
+#right {
+    right: 180px;
+}
